@@ -1,0 +1,13 @@
+{
+  "latest": "2026-04-13",
+  "items": [
+    {
+      "date": "2026-04-13",
+      "week": 18,
+      "subtitle": "第18週"
+    }
+  ],
+  "reports": {
+    "2026-04-13": "https://cdn.jsdelivr.net/gh/harunobumatsumoto-pixel/toai-weekly-report-data@main/reports/week-2026-04-13.json"
+  }
+}

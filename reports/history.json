@@ -1,46 +1,7 @@
-{
-  "weeks": [
-    {
-      "date": "2026-04-13",
-      "week": 17,
-      "subtitle": "第17週",
-      "nonDisplayRate": 87.1,
-      "negativeTotalCount": 5
-    },
-    {
-      "date": "2026-03-30",
-      "week": 16,
-      "subtitle": "第16週",
-      "nonDisplayRate": 85.7,
-      "negativeTotalCount": 6
-    },
-    {
-      "date": "2026-03-23",
-      "week": 15,
-      "subtitle": "第15週",
-      "nonDisplayRate": 85.7,
-      "negativeTotalCount": 6
-    },
-    {
-      "date": "2026-03-17",
-      "week": 14,
-      "subtitle": "第14週",
-      "nonDisplayRate": 85.7,
-      "negativeTotalCount": 6
-    },
-    {
-      "date": "2026-03-09",
-      "week": 13,
-      "subtitle": "第13週",
-      "nonDisplayRate": 85.7,
-      "negativeTotalCount": 6
-    }
-  ],
-  "reports": {
-    "2026-04-13": "https://cdn.jsdelivr.net/gh/harunobumatsumoto-pixel/toai-weekly-report-data@main/reports/latest.json",
-    "2026-03-30": "https://cdn.jsdelivr.net/gh/harunobumatsumoto-pixel/toai-weekly-report-data@main/reports/week-2026-03-30.json",
-    "2026-03-23": "https://cdn.jsdelivr.net/gh/harunobumatsumoto-pixel/toai-weekly-report-data@main/reports/week-2026-03-23.json",
-    "2026-03-17": "https://cdn.jsdelivr.net/gh/harunobumatsumoto-pixel/toai-weekly-report-data@main/reports/week-2026-03-17.json",
-    "2026-03-09": "https://cdn.jsdelivr.net/gh/harunobumatsumoto-pixel/toai-weekly-report-data@main/reports/week-2026-03-09.json"
-  }
+"reports": {
+  "2026-04-13": "https://raw.githubusercontent.com/harunobumatsumoto-pixel/toai-weekly-report-data/main/reports/latest.json",
+  "2026-03-30": "https://cdn.jsdelivr.net/gh/harunobumatsumoto-pixel/toai-weekly-report-data@main/reports/week-2026-03-30.json",
+  "2026-03-23": "https://cdn.jsdelivr.net/gh/harunobumatsumoto-pixel/toai-weekly-report-data@main/reports/week-2026-03-23.json",
+  "2026-03-17": "https://cdn.jsdelivr.net/gh/harunobumatsumoto-pixel/toai-weekly-report-data@main/reports/week-2026-03-17.json",
+  "2026-03-09": "https://cdn.jsdelivr.net/gh/harunobumatsumoto-pixel/toai-weekly-report-data@main/reports/week-2026-03-09.json"
 }

@@ -1,0 +1,203 @@
+name: Deploy report from issue
+
+on:
+  issues:
+    types: [opened, edited, reopened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Parse JSON from issue body
+        id: parse
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          REPO: ${{ github.repository }}
+        run: |
+          python - <<'PY'
+          import os, re, json, sys
+          from pathlib import Path
+
+          body = os.environ.get("ISSUE_BODY", "")
+          repo = os.environ.get("REPO", "")
+
+          def try_load_json(text):
+              try:
+                  return json.loads(text)
+              except Exception:
+                  return None
+
+          report = None
+
+          # 1) ```json ... ``` の中を優先
+          blocks = re.findall(r"```json\s*(\{.*?\})\s*```", body, re.S)
+          for block in blocks:
+              obj = try_load_json(block)
+              if isinstance(obj, dict) and obj.get("date") and obj.get("week"):
+                  report = obj
+                  break
+
+          # 2) 本文全体がJSONならそれを使う
+          if report is None:
+              obj = try_load_json(body.strip())
+              if isinstance(obj, dict) and obj.get("date") and obj.get("week"):
+                  report = obj
+
+          # 3) 本文中の最初の { ... 最後の } を試す
+          if report is None:
+              start = body.find("{")
+              end = body.rfind("}")
+              if start != -1 and end != -1 and end > start:
+                  candidate = body[start:end+1]
+                  obj = try_load_json(candidate)
+                  if isinstance(obj, dict) and obj.get("date") and obj.get("week"):
+                      report = obj
+
+          output = os.environ["GITHUB_OUTPUT"]
+
+          if report is None:
+              with open(output, "a", encoding="utf-8") as f:
+                  f.write("skip=true\n")
+              print("No valid report JSON found in issue body. Skip.")
+              sys.exit(0)
+
+          date = report["date"]
+          week = report["week"]
+          subtitle = report.get("subtitle", f"第{week}週")
+          summary = report.get("summary", {})
+
+          Path("reports").mkdir(exist_ok=True)
+
+          latest_path = Path("reports/latest.json")
+          week_path = Path(f"reports/week-{date}.json")
+          history_path = Path("reports/history.json")
+
+          latest_path.write_text(
+              json.dumps(report, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8"
+          )
+          week_path.write_text(
+              json.dumps(report, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8"
+          )
+
+          history = {"latest": date, "weeks": [], "reports": {}}
+          if history_path.exists():
+              try:
+                  history = json.loads(history_path.read_text(encoding="utf-8"))
+              except Exception:
+                  history = {"latest": date, "weeks": [], "reports": {}}
+
+          weeks = (
+              history.get("weeks")
+              or history.get("items")
+              or history.get("entries")
+              or history.get("history")
+              or []
+          )
+          reports = history.get("reports") or {}
+
+          new_entry = {
+              "date": date,
+              "week": week,
+              "subtitle": subtitle,
+              "nonDisplayRate": summary.get("nonDisplayRate"),
+              "negativeTotalCount": summary.get("negativeTotalCount")
+          }
+
+          # 同日データがあれば置き換え
+          weeks = [
+              w for w in weeks
+              if not (isinstance(w, dict) and w.get("date") == date)
+          ]
+          weeks.insert(0, new_entry)
+          weeks = sorted(
+              weeks,
+              key=lambda x: x.get("date", "") if isinstance(x, dict) else "",
+              reverse=True
+          )
+
+          raw_latest_url = f"https://raw.githubusercontent.com/{repo}/main/reports/latest.json"
+
+          # 以前の latest 参照が残っていたら week ファイルへ戻す
+          for d, url in list(reports.items()):
+              if d != date and url == raw_latest_url:
+                  reports[d] = f"https://cdn.jsdelivr.net/gh/{repo}@main/reports/week-{d}.json"
+
+          reports[date] = raw_latest_url
+
+          history = {
+              "latest": date,
+              "weeks": weeks,
+              "reports": reports
+          }
+
+          history_path.write_text(
+              json.dumps(history, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8"
+          )
+
+          with open(output, "a", encoding="utf-8") as f:
+              f.write("skip=false\n")
+              f.write(f"date={date}\n")
+              f.write(f"week={week}\n")
+          PY
+
+      - name: Commit and push
+        if: steps.parse.outputs.skip != 'true'
+        run: |
+          if git diff --quiet; then
+            echo "No file changes."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add reports/latest.json reports/history.json reports/week-${{ steps.parse.outputs.date }}.json
+          git commit -m "Auto update report ${{ steps.parse.outputs.date }} (week ${{ steps.parse.outputs.week }})"
+          git push
+
+      - name: Comment success
+        if: steps.parse.outputs.skip != 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const repo = context.repo;
+            const date = "${{ steps.parse.outputs.date }}";
+            const week = "${{ steps.parse.outputs.week }}";
+            const body = [
+              "自動反映が完了しました。",
+              "",
+              `- latest.json: https://cdn.jsdelivr.net/gh/${repo.owner}/${repo.repo}@main/reports/latest.json`,
+              `- history.json: https://cdn.jsdelivr.net/gh/${repo.owner}/${repo.repo}@main/reports/history.json`,
+              `- week-${date}.json: https://cdn.jsdelivr.net/gh/${repo.owner}/${repo.repo}@main/reports/week-${date}.json`,
+              `- 反映週: 第${week}週`
+            ].join("\n");
+
+            await github.rest.issues.createComment({
+              owner: repo.owner,
+              repo: repo.repo,
+              issue_number: context.issue.number,
+              body
+            });
+
+      - name: Close issue
+        if: steps.parse.outputs.skip != 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: "closed"
+            });

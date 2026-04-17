@@ -12,7 +12,7 @@
       "「東原元規」個人名検索でも日経・読売の逮捕記事が1〜2位を独占",
       "「TOAI」「株式会社TOAI」は比較的良好だが、就職口コミサイトのネガ記事が6〜8位に表示"
     ],
-    "executiveSummary": "2026年4月13日（第18週）の逆SEO監視調査結果をご報告します。今週のネガティブ非表示率は50.0%で、前週87.1%から大幅に低下しました。目標値95%を大きく下回っており、早急な対応が必要です。特に「ジャンカラ 社長」「東原元規」「TOAI 社長」の3キーワードは最高リスク（レベル4）で、2022年12月の器物損壊逮捕事件に関する神戸新聞・読売新聞・日本経済新聞の記事がGoogle/Yahoo!検索上位1〜5位を占める深刻な状況が続いています。不起訴処分となった事実が検索結果に反映されておらず、逆SEO対策の強化が急務です。一方「TOAI」単体・「株式会社TOAI」では既知ネガ記事は上位10件外ですが、就職口コミサイトのブラック評判記事が6〜8位に表示されており、採用活動への影響が懸念されます。"
+    "executiveSummary": "2026年4月13日（第18週）の逆SEO監視調査結果をご報告します。今週のネガティブ非表示率は50.0%で、前週87.1%から大幅に低下しました。目標値95%を大きく下回っており、早急な対応が必要です。特に「ジャンカラ 社長」「東原元規」「TOAI 社長」の3キーワードは最高リスク（レベル4）で、2022年12月の器物損壊逮捕事件に関する神戸新聞・読売新聞・日本経済新聞の記事がGoogle/Yahoo!検索上位1〜5位を占める深刻な状況が続いています。不起訴処分となった事実が検索結果に反映されておらず、逆SEO対策の強化が急務です。"
   },
   "keywords": {
     "jankara_shacho": {
@@ -21,89 +21,8 @@
       "riskLevel": 4,
       "negativeCount": 8,
       "browserTopRank": "1位（読売新聞・逮捕記事）",
-      "apiRank": "1〜5位に既知ネガ4件全て表示",
-      "weeklyChange": "→ 変化なし（依然として最高リスク状態）",
-      "target": "圏外（11位以下）",
-      "comment": "上位10件中8件がネガティブ記事。既知ネガ4件全てが1〜5位に集中。Yahoo!知恵袋ではアルバイト環境に関するネガ投稿（ブラック・セクハラ・詐欺）が複数存在。検索サジェストにも「逮捕」「器物損壊」「事件」が表示。対策最優先キーワード。",
-      "negativeArticles": [
-        {
-          "rank": 1,
-          "title": "「ジャンカラ」展開会社の社長、タクシー運転手の携帯を使えなくした器物損壊の疑い",
-          "media": "読売新聞",
-          "date": "2022-12-20",
-          "type": "逮捕報道"
-        },
-        {
-          "rank": 2,
-          "title": "タクシー運転手のスマホ取り上げたジャンカラ社長 なぜ器物損壊罪なのか",
-          "media": "Yahoo!ニュース（専門家解説）",
-          "date": "2022-12-21",
-          "type": "逮捕解説"
-        },
-        {
-          "rank": 3,
-          "title": "カラオケのジャンカラ社長逮捕 タクシー運転手の携帯を使えなくした器物損壊の疑い",
-          "media": "神戸新聞NEXT",
-          "date": "2022-12-20",
-          "type": "逮捕報道"
-        },
-        {
-          "rank": 4,
-          "title": "「ジャンカラ」社長を不起訴 器物損壊の疑い",
-          "media": "日本経済新聞",
-          "date": "2023-06-21",
-          "type": "不起訴報道"
-        },
-        {
-          "rank": 5,
-          "title": "「ジャンカラ」社長を逮捕 兵庫県警、器物損壊疑い",
-          "media": "日本経済新聞",
-          "date": "2022-12-20",
-          "type": "逮捕報道"
-        },
-        {
-          "rank": 6,
-          "title": "器物損壊容疑でジャンカラ運営TOAIの社長を逮捕",
-          "media": "YouTube",
-          "date": "2022-12-20",
-          "type": "動画報道"
-        },
-        {
-          "rank": 7,
-          "title": "カラオケのジャンカラ社長逮捕（5ちゃんねるスレッド）",
-          "media": "5ちゃんねる",
-          "date": "2022-12-20",
-          "type": "掲示板"
-        },
-        {
-          "rank": 10,
-          "title": "カラオケのジャンカラ社長逮捕（GirlsChannel）",
-          "media": "GirlsChannel",
-          "date": "2022-12-20",
-          "type": "掲示板"
-        }
-      ],
-      "positiveHighlights": [
-        "8位：【ジャンカラ社長・東原元規が語る】店舗数200突破の舞台裏（Wantedly）",
-        "9位：ジャンカラの社長（東原元規）が目指す企業とは（Ameba Ownd公式）"
-      ],
-      "actions": [
-        {
-          "priority": "高",
-          "text": "Wantedly・公式サイト・PR TIMESの新規記事を大量投下してポジティブ記事を上位に押し上げる",
-          "deadline": "今週中"
-        },
-        {
-          "priority": "高",
-          "text": "Yahoo!知恵袋ネガ投稿（ブラック・セクハラ・詐欺）への対応方針を確認・削除申請",
-          "deadline": "今月末"
-        },
-        {
-          "priority": "中",
-          "text": "検索サジェストから「逮捕」「器物損壊」を排除するためのサジェスト対策実施",
-          "deadline": "来月末"
-        }
-      ]
+      "weeklyChange": "→ 変化なし",
+      "target": "圏外（11位以下）"
     },
     "higashihara": {
       "label": "東原元規",
@@ -111,70 +30,8 @@
       "riskLevel": 4,
       "negativeCount": 5,
       "browserTopRank": "1位（日本経済新聞・逮捕記事）",
-      "apiRank": "1〜2位に既知ネガ2件（日経・読売）表示",
-      "weeklyChange": "→ 変化なし（依然として最高リスク状態）",
-      "target": "圏外（11位以下）",
-      "comment": "個人名検索で逮捕記事が上位1〜2位に表示される深刻な状況。5〜9位にWantedly・Diamond Online・公式等のポジティブ記事が存在するが、逮捕記事が圧倒的優位。Wikipedia（9位）の存在は強みだが、活用が不十分。AI（ChatGPT等）も逮捕歴を提示する傾向が高い。",
-      "negativeArticles": [
-        {
-          "rank": 1,
-          "title": "「ジャンカラ」社長を逮捕 兵庫県警、器物損壊疑い",
-          "media": "日本経済新聞",
-          "date": "2022-12-20",
-          "type": "逮捕報道"
-        },
-        {
-          "rank": 2,
-          "title": "「ジャンカラ」展開会社の社長、タクシー運転手の携帯を使えなくした器物損壊の疑い",
-          "media": "読売新聞",
-          "date": "2022-12-20",
-          "type": "逮捕報道"
-        },
-        {
-          "rank": 3,
-          "title": "器物損壊容疑でジャンカラ運営TOAIの社長、東原元規容疑者を逮捕（YouTube）",
-          "media": "YouTube",
-          "date": "2022-12-20",
-          "type": "動画報道"
-        },
-        {
-          "rank": 4,
-          "title": "器物損壊】カラオケ「ジャンカラ」展開会社、東原元規社長を逮捕（まとめサイト）",
-          "media": "8mato.jp",
-          "date": "2022-12-20",
-          "type": "まとめサイト"
-        },
-        {
-          "rank": 10,
-          "title": "タクシー運転手のスマホを取り上げた疑い「ジャンカラ」社長逮捕",
-          "media": "X（旧Twitter）",
-          "date": "2022-12-20",
-          "type": "SNS"
-        }
-      ],
-      "positiveHighlights": [
-        "5位：【ジャンカラ社長・東原元規が語る】店舗数200突破の舞台裏（Wantedly）",
-        "6位：ジャンカラの社長（東原元規）が目指す企業とは（Ameba Ownd公式）",
-        "7位：デジタルの力で業界の常識を覆し、カラオケ体験を再定義する変革者（Diamond Online）",
-        "9位：TOAI - Wikipedia（東原元規代表取締役社長）"
-      ],
-      "actions": [
-        {
-          "priority": "高",
-          "text": "個人名での公式プロフィールページ・インタビュー記事をSEO最適化して上位化を推進",
-          "deadline": "今月末"
-        },
-        {
-          "priority": "高",
-          "text": "まとめサイト（8mato.jp）への削除申請またはネガ記事降下策を実施",
-          "deadline": "今月末"
-        },
-        {
-          "priority": "中",
-          "text": "Wikipedia記事のポジティブ内容充実化とリンク強化",
-          "deadline": "来月末"
-        }
-      ]
+      "weeklyChange": "→ 変化なし",
+      "target": "圏外（11位以下）"
     },
     "toai_shacho": {
       "label": "TOAI 社長",
@@ -182,68 +39,8 @@
       "riskLevel": 4,
       "negativeCount": 5,
       "browserTopRank": "1位（神戸新聞NEXT・逮捕記事）",
-      "apiRank": "1〜4位に既知ネガ4件全て表示",
-      "weeklyChange": "→ 変化なし（依然として最高リスク状態）",
-      "target": "圏外（11位以下）",
-      "comment": "既知ネガ4件全てが上位1〜4位を占める最悪の状態。公式サイトは5位まで押し下げられている。TOAIのコーポレートブランドへの直撃リスクが高い。8位にブラック診断サイトも表示されており、採用・取引への影響が懸念される。",
-      "negativeArticles": [
-        {
-          "rank": 1,
-          "title": "カラオケのジャンカラ社長逮捕 タクシー運転手の携帯を使えなくした器物損壊の疑い",
-          "media": "神戸新聞NEXT",
-          "date": "2022-12-20",
-          "type": "逮捕報道"
-        },
-        {
-          "rank": 2,
-          "title": "「ジャンカラ」社長を不起訴 器物損壊の疑い",
-          "media": "日本経済新聞",
-          "date": "2023-06-21",
-          "type": "不起訴報道"
-        },
-        {
-          "rank": 3,
-          "title": "「ジャンカラ」展開会社の社長、タクシー運転手の携帯を使えなくした",
-          "media": "読売新聞",
-          "date": "2022-12-20",
-          "type": "逮捕報道"
-        },
-        {
-          "rank": 4,
-          "title": "「ジャンカラ」社長を逮捕 兵庫県警、器物損壊疑い",
-          "media": "日本経済新聞",
-          "date": "2022-12-20",
-          "type": "逮捕報道"
-        },
-        {
-          "rank": 8,
-          "title": "TOAIのホワイト・ブラック診断",
-          "media": "careerconnection",
-          "date": "2024-01-01",
-          "type": "口コミサイト"
-        }
-      ],
-      "positiveHighlights": [
-        "5位：株式会社TOAI コーポレートサイト（公式）",
-        "9位：株式会社TOAI、女性活躍推進「えるぼし認定 2つ星」取得（PR TIMES）"
-      ],
-      "actions": [
-        {
-          "priority": "高",
-          "text": "「TOAI 社長」向けに東原社長の実績・ビジョン記事を複数媒体（note・PR TIMES・業界誌）に掲載",
-          "deadline": "今週中"
-        },
-        {
-          "priority": "高",
-          "text": "神戸新聞・日経・読売の逮捕記事をAMP/キャッシュ削除申請し検索インデックス弱体化を図る",
-          "deadline": "今月末"
-        },
-        {
-          "priority": "中",
-          "text": "ブラック診断サイトへの反論コンテンツ・公式CSR情報の充実化",
-          "deadline": "来月末"
-        }
-      ]
+      "weeklyChange": "→ 変化なし",
+      "target": "圏外（11位以下）"
     },
     "toai": {
       "label": "TOAI",
@@ -251,39 +48,8 @@
       "riskLevel": 2,
       "negativeCount": 1,
       "browserTopRank": "1位（株式会社TOAI公式サイト）",
-      "apiRank": "既知ネガ記事：上位10件外",
-      "weeklyChange": "→ 変化なし（中リスク状態を維持）",
-      "target": "既知ネガ記事を11位以下に維持",
-      "comment": "公式サイト・ジャンカラサイト・Wikipediaが上位1〜3位を占め、相対的に良好な状態。既知ネガURL（逮捕報道）は上位10件外。ただしブラック診断サイト（6位）が表示されており、就活生への影響がある。サジェストに「TOAI 社長」が出るため、関連検索経由でのネガ記事流入リスクに注意。",
-      "negativeArticles": [
-        {
-          "rank": 6,
-          "title": "TOAIのホワイト・ブラック診断",
-          "media": "careerconnection",
-          "date": "2024-01-01",
-          "type": "口コミサイト"
-        }
-      ],
-      "positiveHighlights": [
-        "1位：株式会社TOAI（公式コーポレートサイト）",
-        "2位：ジャンカラ: 飲み放題付カラオケ（TOAI公式）",
-        "3位：TOAI - Wikipedia",
-        "4位：株式会社TOAIは『To→AI』へ！！（PR TIMES）",
-        "5位：株式会社TOAI、女性活躍推進「えるぼし認定 2つ星」取得（PR TIMES）",
-        "10位：ジャンカラ運営会社のTOAI、全店舗社員の賃金を一律10%引き上げ（excite）"
-      ],
-      "actions": [
-        {
-          "priority": "中",
-          "text": "口コミサイト（careerconnection）のブラック診断記事に対抗するポジティブ口コミ促進施策を実施",
-          "deadline": "来月末"
-        },
-        {
-          "priority": "低",
-          "text": "「TOAI 社長」の関連検索対策として東原社長の肯定的コンテンツを継続投下",
-          "deadline": "継続"
-        }
-      ]
+      "weeklyChange": "→ 変化なし",
+      "target": "既知ネガ記事を11位以下に維持"
     },
     "toai_kabushiki": {
       "label": "株式会社TOAI",
@@ -291,151 +57,10 @@
       "riskLevel": 2,
       "negativeCount": 1,
       "browserTopRank": "1位（株式会社TOAI公式サイト）",
-      "apiRank": "既知ネガ記事：上位10件外",
-      "weeklyChange": "→ 変化なし（中リスク状態を維持）",
-      "target": "既知ネガ記事を11位以下に維持",
-      "comment": "「株式会社TOAI」では公式・Wikipedia・PR TIMESが上位を維持し、既知ネガ記事は上位10件外。ただし就職口コミサイト（エン・OpenWork・就活会議）が6〜10位に複数表示されており、採用活動への影響がある。ブラック・ホワイト評判サイトへの対策が中期的課題。",
-      "negativeArticles": [
-        {
-          "rank": 8,
-          "title": "TOAIはブラック？ホワイト？（会社の掲示板カンパニートーク）",
-          "media": "カンパニートーク",
-          "date": "2024-01-01",
-          "type": "口コミサイト"
-        }
-      ],
-      "positiveHighlights": [
-        "1位：株式会社TOAI（公式コーポレートサイト）",
-        "2位：株式会社TOAI｜企業情報",
-        "3位：TOAI - Wikipedia",
-        "4位：株式会社TOAIは『To→AI』へ！！（PR TIMES）",
-        "5位：株式会社TOAI、女性活躍推進「えるぼし認定 2つ星」取得（PR TIMES）"
-      ],
-      "actions": [
-        {
-          "priority": "中",
-          "text": "採用ページ・会社情報の充実化と社員インタビューの掲載拡大で口コミサイト対策を強化",
-          "deadline": "来月末"
-        },
-        {
-          "priority": "低",
-          "text": "「株式会社TOAI 社長」関連ページの被リンク強化でネガ記事の相対的降下を促進",
-          "deadline": "継続"
-        }
-      ]
+      "weeklyChange": "→ 変化なし",
+      "target": "既知ネガ記事を11位以下に維持"
     }
   },
-  "actions": [
-    {
-      "priority": "高",
-      "emoji": "🔴",
-      "text": "「ジャンカラ 社長」「東原元規」「TOAI 社長」向けポジティブ記事を今週中に3本以上PR TIMES・Wantedly等に掲載",
-      "deadline": "2026-04-17（今週金曜）",
-      "status": "対応中"
-    },
-    {
-      "priority": "高",
-      "emoji": "🔴",
-      "text": "神戸新聞・読売新聞・日経のキャッシュ削除申請＋Googleに対するコンテンツポリシー申請を実施",
-      "deadline": "2026-04-20（来週月曜）",
-      "status": "対応中"
-    },
-    {
-      "priority": "高",
-      "emoji": "🔴",
-      "text": "Yahoo!知恵袋のネガ投稿（ブラック・セクハラ・詐欺関連）への削除申請または対応方針確定",
-      "deadline": "2026-04-30",
-      "status": "未着手"
-    },
-    {
-      "priority": "中",
-      "emoji": "🟡",
-      "text": "「東原元規」個人名Googleサジェストから「逮捕」「器物損壊」を排除するためのサジェスト対策開始",
-      "deadline": "2026-05-31",
-      "status": "対応中"
-    },
-    {
-      "priority": "中",
-      "emoji": "🟡",
-      "text": "まとめサイト（8mato.jp）・GirlsChannel等UGCサイトへの削除申請または逆リンク弱体化施策",
-      "deadline": "2026-05-15",
-      "status": "未着手"
-    },
-    {
-      "priority": "中",
-      "emoji": "🟡",
-      "text": "就職口コミサイト（OpenWork・エン・就活会議）のポジティブ口コミ促進キャンペーン実施",
-      "deadline": "2026-05-31",
-      "status": "未着手"
-    },
-    {
-      "priority": "低",
-      "emoji": "🟢",
-      "text": "Wikipedia（TOAI・東原元規）の記事内容拡充と不起訴処分の明確な記載を追加",
-      "deadline": "2026-06-30",
-      "status": "未着手"
-    }
-  ],
-  "positiveContents": [
-    {
-      "date": "2026-01-14",
-      "title": "株式会社TOAI、女性活躍推進企業として「えるぼし認定 2つ星」を取得",
-      "source": "PR TIMES"
-    },
-    {
-      "date": "2025-06-04",
-      "title": "ジャンカラ運営のTOAI、全店舗社員の賃金を一律10%引き上げ",
-      "source": "excite（PR TIMES配信）"
-    },
-    {
-      "date": "2024-01-01",
-      "title": "【ジャンカラ社長・東原元規が語る】店舗数200突破の舞台裏",
-      "source": "Wantedly"
-    },
-    {
-      "date": "2024-01-01",
-      "title": "デジタルの力で業界の常識を覆し、カラオケ体験を再定義する変革者",
-      "source": "Diamond Online"
-    }
-  ],
-  "scenarioHeaders": [
-    "4月末",
-    "5月末",
-    "6月末",
-    "7月末"
-  ],
-  "scenarios": [
-    {
-      "name": "Aシナリオ（楽観）",
-      "values": [
-        58,
-        68,
-        78,
-        88
-      ],
-      "note": "ポジティブ記事施策が順調に進み、主要3KWで2件以上のネガ記事が圏外化に成功した場合"
-    },
-    {
-      "name": "Bシナリオ（標準）",
-      "values": [
-        53,
-        60,
-        68,
-        76
-      ],
-      "note": "現状の対策ペースを維持した場合。「TOAI」「株式会社TOAI」は良好維持、社長関連KWは緩慢に改善"
-    },
-    {
-      "name": "Cシナリオ（悲観）",
-      "values": [
-        50,
-        50,
-        52,
-        55
-      ],
-      "note": "追加対策なし・ネガ記事がさらに増加した場合。現状維持または微悪化の見込み"
-    }
-  ],
   "rateHistory": [
     {
       "week": "第17週(4/6)",
@@ -445,57 +70,5 @@
       "week": "第18週(4/13)",
       "rate": 50.0
     }
-  ],
-  "matrix": {
-    "jankara_shacho": {
-      "google_organic": "red",
-      "google_suggest": "red",
-      "google_related": "red",
-      "yahoo_organic": "red",
-      "yahoo_suggest": "red",
-      "yahoo_related": "red",
-      "bing_organic": "red",
-      "chiebukuro": "red"
-    },
-    "higashihara": {
-      "google_organic": "red",
-      "google_suggest": "red",
-      "google_related": "red",
-      "yahoo_organic": "red",
-      "yahoo_suggest": "red",
-      "yahoo_related": "yellow",
-      "bing_organic": "red",
-      "chiebukuro": "green"
-    },
-    "toai_shacho": {
-      "google_organic": "red",
-      "google_suggest": "red",
-      "google_related": "red",
-      "yahoo_organic": "red",
-      "yahoo_suggest": "red",
-      "yahoo_related": "yellow",
-      "bing_organic": "red",
-      "chiebukuro": "green"
-    },
-    "toai": {
-      "google_organic": "yellow",
-      "google_suggest": "green",
-      "google_related": "yellow",
-      "yahoo_organic": "yellow",
-      "yahoo_suggest": "green",
-      "yahoo_related": "green",
-      "bing_organic": "green",
-      "chiebukuro": "none"
-    },
-    "toai_kabushiki": {
-      "google_organic": "yellow",
-      "google_suggest": "green",
-      "google_related": "yellow",
-      "yahoo_organic": "yellow",
-      "yahoo_suggest": "green",
-      "yahoo_related": "green",
-      "bing_organic": "green",
-      "chiebukuro": "none"
-    }
-  }
+  ]
 }

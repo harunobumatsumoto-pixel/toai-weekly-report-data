@@ -1,391 +1,74 @@
 {
   "date": "2026-04-13",
-  "week": 17,
-  "subtitle": "第17週",
+  "week": 18,
+  "subtitle": "第18週",
   "summary": {
-    "nonDisplayRate": 87.1,
-    "nonDisplayRatePrev": 85.7,
+    "nonDisplayRate": 50.0,
+    "nonDisplayRatePrev": 87.1,
     "nonDisplayRateTarget": 95,
-    "negativeTotalCount": 5,
+    "negativeTotalCount": 20,
     "highlightItems": [
-      "「ジャンカラ 社長」ネガ記事4件→5位圏内で横ばい継続。4/3新長田駅前店OPENポジ記事的Google反映を確認。",
-      "「東原元規」実ブラウザ1〜3位にネガ継続。代表者紹介ページ強化の効果測定を続行中。",
-      "ネガ非表示率：85.7% → 87.1%（+1.4pt）。4月はポジ記事蓄積が加速中。",
-      "Yahoo予算強化・API大阪サーバ変更の実行状況を引き続き確認。",
-      "4/25 UTAOファイナルステージに向けたSNS拡散・記事化が話題化の好機。"
+      "「ジャンカラ 社長」「TOAI 社長」で既知ネガ4件全てが上位1〜5位に表示（最高リスク）",
+      "「東原元規」個人名検索でも日経・読売の逮捕記事が1〜2位を独占",
+      "「TOAI」「株式会社TOAI」は比較的良好だが、就職口コミサイトのネガ記事が6〜8位に表示"
     ],
-    "executiveSummary": "4月第2週、ネガ非表示率は85.7%→87.1%へ+1.4ptの改善。4/3新長田駅前店グランドOPEN関連記事がGoogleに反映し、「ジャンカラ 社長」的5位以内ポジ記事が1本追加された効果とみられる。「東原元規」は依然3位以内にネガが残存するが、代表者情報強化施策の継続で4月末〜5月にかけて的改善に期待。4/25 UTAOファイナルステージは大きな話題化・ポジ記事供給的好機であり、SNS拡散・メディア記事化を積極的に推進する。"
+    "executiveSummary": "2026年4月13日（第18週）の逆SEO監視調査結果をご報告します。今週のネガティブ非表示率は50.0%で、前週87.1%から大幅に低下しました。目標値95%を大きく下回っており、早急な対応が必要です。特に「ジャンカラ 社長」「東原元規」「TOAI 社長」の3キーワードは最高リスク（レベル4）で、2022年12月の器物損壊逮捕事件に関する神戸新聞・読売新聞・日本経済新聞の記事がGoogle/Yahoo!検索上位1〜5位を占める深刻な状況が続いています。不起訴処分となった事実が検索結果に反映されておらず、逆SEO対策の強化が急務です。"
   },
   "keywords": {
     "jankara_shacho": {
       "label": "ジャンカラ 社長",
       "volume": 8100,
-      "riskLevel": 2,
-      "negativeCount": 4,
-      "browserTopRank": "1位（神戸新聞）",
-      "apiRank": "5〜7位",
-      "weeklyChange": "+1pt改善傾向",
-      "target": "圏外（11位以下）",
-      "comment": "ネガ4件が依然実ブラウザ上位を占有。4/3新長田駅前店OPEN的ポジ記事がGoogle 8位付近に反映され、底上げ効果が出始めている。Yahoo予算強化が実行されれば5月中旬以降に大幅改善的余地あり。",
-      "negativeArticles": [
-        {
-          "rank": 1,
-          "title": "「ジャンカラ」社長を逮捕 器物損壊疑いで",
-          "media": "神戸新聞",
-          "date": "2022/12/20",
-          "type": "ネガ"
-        },
-        {
-          "rank": 2,
-          "title": "「ジャンカラ」展開会社的社長、タクシー運転手的携帯を…",
-          "media": "読売新聞",
-          "date": "2022/12/20",
-          "type": "ネガ"
-        },
-        {
-          "rank": 3,
-          "title": "「ジャンカラ」社長を逮捕 器物損壊疑い",
-          "media": "日本経済新聞",
-          "date": "2022/12/20",
-          "type": "ネガ"
-        },
-        {
-          "rank": 5,
-          "title": "「ジャンカラ」社長を不起訴",
-          "media": "日本経済新聞",
-          "date": "2023/06/21",
-          "type": "ネガ（不起訴）"
-        }
-      ],
-      "positiveHighlights": [
-        "4/3新長田駅前店グランドOPEN記事（Google 8位反映確認）",
-        "3/27地下鉄平野店グランドOPEN記事",
-        "UTAO歌唱王セミファイナル関連記事"
-      ],
-      "actions": [
-        {
-          "priority": "高",
-          "text": "Yahoo予算強化的実行確認（4月中）",
-          "deadline": "4月中"
-        },
-        {
-          "priority": "高",
-          "text": "4/25 UTAOファイナル記事的Indexing申請準備",
-          "deadline": "4/25前日まで"
-        },
-        {
-          "priority": "中",
-          "text": "4/3新長田記事的内部リンク強化",
-          "deadline": "今週中"
-        }
-      ]
+      "riskLevel": 4,
+      "negativeCount": 8,
+      "browserTopRank": "1位（読売新聞・逮捕記事）",
+      "weeklyChange": "→ 変化なし",
+      "target": "圏外（11位以下）"
     },
     "higashihara": {
       "label": "東原元規",
       "volume": 1900,
-      "riskLevel": 3,
-      "negativeCount": 2,
-      "browserTopRank": "1〜3位",
-      "apiRank": "未検出",
-      "weeklyChange": "変化なし",
-      "target": "圏外（11位以下）",
-      "comment": "実ブラウザ1〜3位にネガが残存。代表者紹介ページ（Wantedly・LinkedIn・公式）的充実化を継続し、4月末までに7位以内へのポジ記事増加を目指す。",
-      "negativeArticles": [
-        {
-          "rank": 2,
-          "title": "「ジャンカラ」社長を逮捕（東原元規氏名記載）",
-          "media": "神戸新聞・日経・読売",
-          "date": "2022/12/20",
-          "type": "ネガ"
-        },
-        {
-          "rank": 4,
-          "title": "不起訴処分関連記事",
-          "media": "日経・その他",
-          "date": "2023/06/21",
-          "type": "ネガ（不起訴）"
-        }
-      ],
-      "positiveHighlights": [
-        "代表者紹介ページ（Wantedly・LinkedIn・企業ページ 5〜10位）",
-        "PR TIMES（4/3新長田OPEN関連）"
-      ],
-      "actions": [
-        {
-          "priority": "高",
-          "text": "4/25 UTAOファイナル的社長コメント記事化・SNS投稿",
-          "deadline": "4/25"
-        },
-        {
-          "priority": "高",
-          "text": "Wantedly・LinkedIn プロフィール更新確認",
-          "deadline": "今週中"
-        },
-        {
-          "priority": "中",
-          "text": "公式サイト代表者ページ SEO強化",
-          "deadline": "4月中"
-        }
-      ]
+      "riskLevel": 4,
+      "negativeCount": 5,
+      "browserTopRank": "1位（日本経済新聞・逮捕記事）",
+      "weeklyChange": "→ 変化なし",
+      "target": "圏外（11位以下）"
     },
     "toai_shacho": {
       "label": "TOAI 社長",
       "volume": 720,
-      "riskLevel": 0,
-      "negativeCount": 0,
-      "browserTopRank": "ネガなし",
-      "apiRank": "ネガなし",
-      "weeklyChange": "良好維持",
-      "target": "ネガなし維持",
-      "comment": "4/3新長田駅前店・えるぼし認定などポジ材料が継続蓄積。良好維持継続。",
-      "negativeArticles": [],
-      "positiveHighlights": [
-        "4/3新長田駅前店OPEN",
-        "3/27地下鉄平野店OPEN",
-        "えるぼし認定2つ星"
-      ],
-      "actions": [
-        {
-          "priority": "低",
-          "text": "4/25 UTAOファイナル的記事Indexing申請",
-          "deadline": "4/25"
-        }
-      ]
+      "riskLevel": 4,
+      "negativeCount": 5,
+      "browserTopRank": "1位（神戸新聞NEXT・逮捕記事）",
+      "weeklyChange": "→ 変化なし",
+      "target": "圏外（11位以下）"
     },
     "toai": {
       "label": "TOAI",
       "volume": 1010000,
-      "riskLevel": 0,
-      "negativeCount": 0,
-      "browserTopRank": "ネガなし",
-      "apiRank": "ネガなし",
-      "weeklyChange": "良好維持",
-      "target": "ネガなし維持",
-      "comment": "AIネイティブ企業宣言・多角事業展開ニュースが安定上位。良好維持継続。",
-      "negativeArticles": [],
-      "positiveHighlights": [
-        "AIネイティブ企業宣言・多角事業展開ニュース",
-        "4/3新長田駅前店OPEN"
-      ],
-      "actions": [
-        {
-          "priority": "低",
-          "text": "定期ポジコンテンツ配信継続",
-          "deadline": "毎月"
-        }
-      ]
+      "riskLevel": 2,
+      "negativeCount": 1,
+      "browserTopRank": "1位（株式会社TOAI公式サイト）",
+      "weeklyChange": "→ 変化なし",
+      "target": "既知ネガ記事を11位以下に維持"
     },
     "toai_kabushiki": {
       "label": "株式会社TOAI",
       "volume": 2900,
-      "riskLevel": 0,
-      "negativeCount": 0,
-      "browserTopRank": "ネガなし",
-      "apiRank": "ネガなし",
-      "weeklyChange": "良好維持",
-      "target": "ネガなし維持",
-      "comment": "良好維持継続。求人・公式・PRページが安定上位。",
-      "negativeArticles": [],
-      "positiveHighlights": [
-        "公式・求人・PRページ",
-        "4/3新長田駅前店OPEN関連"
-      ],
-      "actions": [
-        {
-          "priority": "低",
-          "text": "入力補助・関連検索 継続",
-          "deadline": "4月〜"
-        }
-      ]
+      "riskLevel": 2,
+      "negativeCount": 1,
+      "browserTopRank": "1位（株式会社TOAI公式サイト）",
+      "weeklyChange": "→ 変化なし",
+      "target": "既知ネガ記事を11位以下に維持"
     }
   },
-  "actions": [
-    {
-      "priority": "高",
-      "emoji": "🔴",
-      "text": "Yahoo予算強化的実行確認",
-      "deadline": "4月中",
-      "status": "要実行"
-    },
-    {
-      "priority": "高",
-      "emoji": "🔴",
-      "text": "4/25 UTAOファイナル 記事化・Indexing申請準備",
-      "deadline": "4/25",
-      "status": "準備中"
-    },
-    {
-      "priority": "高",
-      "emoji": "🔴",
-      "text": "東原元規 Wantedly/LinkedIn プロフィール更新確認",
-      "deadline": "今週中",
-      "status": "要確認"
-    },
-    {
-      "priority": "中",
-      "emoji": "🟡",
-      "text": "4/3新長田記事 内部リンク強化",
-      "deadline": "今週中",
-      "status": "実施推奨"
-    },
-    {
-      "priority": "中",
-      "emoji": "🟡",
-      "text": "「ジャンカラ 社長」Yahoo 施策状況確認",
-      "deadline": "4月中",
-      "status": "進行中"
-    },
-    {
-      "priority": "低",
-      "emoji": "🟢",
-      "text": "エフェクチュアル 施策進捗確認",
-      "deadline": "4月末",
-      "status": "進行中"
-    }
-  ],
-  "positiveContents": [
-    {
-      "date": "4/3",
-      "title": "ジャンカラ 新長田駅前店グランドオープン",
-      "source": "PR TIMES"
-    },
-    {
-      "date": "4/3",
-      "title": "UTAO歌唱王 セミファイナル結果発表",
-      "source": "UTAO"
-    },
-    {
-      "date": "3/27",
-      "title": "ジャンカラ 地下鉄平野店グランドオープン",
-      "source": "PR TIMES"
-    },
-    {
-      "date": "3/25〜29",
-      "title": "UTAO歌唱王 セミファイナル期間終了",
-      "source": "UTAO"
-    },
-    {
-      "date": "3/17",
-      "title": "ジャンカラ 天王寺店リニューアルOPEN",
-      "source": "PR TIMES"
-    }
-  ],
-  "scenarioHeaders": [
-    "3月末",
-    "4月末",
-    "5月末",
-    "6月末"
-  ],
-  "scenarios": [
-    {
-      "name": "Aシナリオ（最速）",
-      "col1": "85.7%",
-      "col2": "89〜91%",
-      "col3": "93〜95%",
-      "col4": "95%達成",
-      "note": "Yahoo強化＋4/25UTAO話題化成功時"
-    },
-    {
-      "name": "Bシナリオ（標準）",
-      "col1": "85.7%",
-      "col2": "87〜89%",
-      "col3": "91〜92%",
-      "col4": "92〜93%",
-      "note": "標準的な施策実行時"
-    },
-    {
-      "name": "Cシナリオ（現状維持）",
-      "col1": "85.7%",
-      "col2": "87%",
-      "col3": "87〜88%",
-      "col4": "88%前後",
-      "note": "現状施策継続のみ"
-    }
-  ],
   "rateHistory": [
     {
-      "week": "第1週(1/19)",
-      "rate": 72.0
-    },
-    {
-      "week": "第5週(2/16)",
-      "rate": 80.0
-    },
-    {
-      "week": "第7週(2/24)",
-      "rate": 83.3
-    },
-    {
-      "week": "第11週(3/4)",
-      "rate": 85.7
-    },
-    {
-      "week": "第13週(3/9)",
-      "rate": 85.7
-    },
-    {
-      "week": "第14週(3/17)",
-      "rate": 85.7
-    },
-    {
-      "week": "第15週(3/23)",
-      "rate": 85.7
-    },
-    {
-      "week": "第16週(3/30)",
-      "rate": 85.7
-    },
-    {
-      "week": "第17週(4/13)",
+      "week": "第17週(4/6)",
       "rate": 87.1
-    }
-  ],
-  "matrix": {
-    "jankara_shacho": {
-      "label": "ジャンカラ 社長",
-      "rows": [
-        {
-          "face": "自然検索（記事）",
-          "place": "検索結果 本文",
-          "google": "red",
-          "yahoo": "green",
-          "bing": "green"
-        },
-        {
-          "face": "入力補助（サジェスト）",
-          "place": "検索窓 プルダウン",
-          "google": "yellow",
-          "yahoo": "yellow",
-          "bing": "green"
-        },
-        {
-          "face": "関連検索",
-          "place": "結果ページ 最下部",
-          "google": "yellow",
-          "yahoo": "yellow",
-          "bing": "green"
-        }
-      ]
     },
-    "higashihara": {
-      "label": "東原元規",
-      "rows": [
-        {
-          "face": "自然検索（記事）",
-          "place": "検索結果 本文",
-          "google": "red",
-          "yahoo": "red",
-          "bing": "green"
-        },
-        {
-          "face": "入力補助（サジェスト）",
-          "place": "検索窓 プルダウン",
-          "google": "red",
-          "yahoo": "red",
-          "bing": "green"
-        },
-        {
-          "face": "関連検索",
-          "place": "結果ページ 最下部",
-          "google": "yellow",
-          "yahoo": "yellow",<span class="cursor">█</span>
+    {
+      "week": "第18週(4/13)",
+      "rate": 50.0
+    }
+  ]
+}

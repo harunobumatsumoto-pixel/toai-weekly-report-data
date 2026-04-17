@@ -1,11 +1,12 @@
 {
+  "latest": "2026-04-13",
   "weeks": [
     {
       "date": "2026-04-13",
-      "week": 17,
-      "subtitle": "第17週",
-      "nonDisplayRate": 87.1,
-      "negativeTotalCount": 5
+      "week": 18,
+      "subtitle": "第18週",
+      "nonDisplayRate": 50.0,
+      "negativeTotalCount": 20
     },
     {
       "date": "2026-03-30",

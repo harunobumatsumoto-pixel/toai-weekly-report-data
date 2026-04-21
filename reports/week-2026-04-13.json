@@ -1,74 +1,8 @@
 {
   "date": "2026-04-13",
-  "week": 18,
-  "subtitle": "第18週",
-  "summary": {
-    "nonDisplayRate": 50.0,
-    "nonDisplayRatePrev": 87.1,
-    "nonDisplayRateTarget": 95,
-    "negativeTotalCount": 20,
-    "highlightItems": [
-      "「ジャンカラ 社長」「TOAI 社長」で既知ネガ4件全てが上位1〜5位に表示（最高リスク）",
-      "「東原元規」個人名検索でも日経・読売の逮捕記事が1〜2位を独占",
-      "「TOAI」「株式会社TOAI」は比較的良好だが、就職口コミサイトのネガ記事が6〜8位に表示"
-    ],
-    "executiveSummary": "2026年4月13日（第18週）の逆SEO監視調査結果をご報告します。今週のネガティブ非表示率は50.0%で、前週87.1%から大幅に低下しました。目標値95%を大きく下回っており、早急な対応が必要です。特に「ジャンカラ 社長」「東原元規」「TOAI 社長」の3キーワードは最高リスク（レベル4）で、2022年12月の器物損壊逮捕事件に関する神戸新聞・読売新聞・日本経済新聞の記事がGoogle/Yahoo!検索上位1〜5位を占める深刻な状況が続いています。不起訴処分となった事実が検索結果に反映されておらず、逆SEO対策の強化が急務です。"
-  },
-  "keywords": {
-    "jankara_shacho": {
-      "label": "ジャンカラ 社長",
-      "volume": 8100,
-      "riskLevel": 4,
-      "negativeCount": 8,
-      "browserTopRank": "1位（読売新聞・逮捕記事）",
-      "weeklyChange": "→ 変化なし",
-      "target": "圏外（11位以下）"
-    },
-    "higashihara": {
-      "label": "東原元規",
-      "volume": 1900,
-      "riskLevel": 4,
-      "negativeCount": 5,
-      "browserTopRank": "1位（日本経済新聞・逮捕記事）",
-      "weeklyChange": "→ 変化なし",
-      "target": "圏外（11位以下）"
-    },
-    "toai_shacho": {
-      "label": "TOAI 社長",
-      "volume": 720,
-      "riskLevel": 4,
-      "negativeCount": 5,
-      "browserTopRank": "1位（神戸新聞NEXT・逮捕記事）",
-      "weeklyChange": "→ 変化なし",
-      "target": "圏外（11位以下）"
-    },
-    "toai": {
-      "label": "TOAI",
-      "volume": 1010000,
-      "riskLevel": 2,
-      "negativeCount": 1,
-      "browserTopRank": "1位（株式会社TOAI公式サイト）",
-      "weeklyChange": "→ 変化なし",
-      "target": "既知ネガ記事を11位以下に維持"
-    },
-    "toai_kabushiki": {
-      "label": "株式会社TOAI",
-      "volume": 2900,
-      "riskLevel": 2,
-      "negativeCount": 1,
-      "browserTopRank": "1位（株式会社TOAI公式サイト）",
-      "weeklyChange": "→ 変化なし",
-      "target": "既知ネガ記事を11位以下に維持"
-    }
-  },
-  "rateHistory": [
-    {
-      "week": "第17週(4/6)",
-      "rate": 87.1
-    },
-    {
-      "week": "第18週(4/13)",
-      "rate": 50.0
-    }
-  ]
+  "week": 17,
+  "subtitle": "第17週",
+  "nonDisplayRate": 87.1,
+  "negativeTotalCount": 5,
+  "reportType": "weekly"
 }

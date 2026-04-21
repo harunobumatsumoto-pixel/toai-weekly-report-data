@@ -2,70 +2,7 @@
   "date": "2026-04-13",
   "week": 17,
   "subtitle": "第17週",
-  "summary": {
-    "nonDisplayRate": 87.1,
-    "nonDisplayRatePrev": 85.7,
-    "nonDisplayRateTarget": 95,
-    "negativeTotalCount": 5,
-    "highlightItems": [
-      "「ジャンカラ 社長」ネガ記事4件→5位圏内で横ばい継続。4/3新長田駅前店OPENポジ記事のGoogle反映を確認。",
-      "「東原元規」実ブラウザ1〜3位にネガ継続。代表者紹介ページ強化の効果測定を続行中。",
-      "ネガ非表示率：85.7% → 87.1%（+1.4pt）。4月はポジ記事蓄積が加速中。"
-    ],
-    "executiveSummary": "4月第2週、ネガ非表示率は85.7%→87.1%へ+1.4ptの改善。4/3新長田駅前店グランドOPEN関連記事がGoogleに反映し、「ジャンカラ 社長」の5位以内ポジ記事が1本追加された効果とみられる。「東原元規」は依然3位以内にネガが残存するが、代表者情報強化施策の継続で4月末〜5月にかけての改善に期待。4/25 UTAOファイナルステージは大きな話題化・ポジ記事供給の好機であり、SNS拡散・メディア記事化を積極的に推進する。"
-  },
-  "keywords": {
-    "jankara_shacho": {
-      "label": "ジャンカラ 社長",
-      "volume": 8100,
-      "riskLevel": 2,
-      "negativeCount": 4,
-      "browserTopRank": "1位（神戸新聞）",
-      "weeklyChange": "+1pt改善傾向",
-      "target": "圏外（11位以下）"
-    },
-    "higashihara": {
-      "label": "東原元規",
-      "volume": 1900,
-      "riskLevel": 3,
-      "negativeCount": 2,
-      "browserTopRank": "1〜3位",
-      "weeklyChange": "変化なし",
-      "target": "圏外（11位以下）"
-    },
-    "toai_shacho": {
-      "label": "TOAI 社長",
-      "volume": 720,
-      "riskLevel": 0,
-      "negativeCount": 0,
-      "browserTopRank": "ネガなし",
-      "weeklyChange": "良好維持",
-      "target": "ネガなし維持"
-    },
-    "toai": {
-      "label": "TOAI",
-      "volume": 1010000,
-      "riskLevel": 0,
-      "negativeCount": 0,
-      "browserTopRank": "ネガなし",
-      "weeklyChange": "良好維持",
-      "target": "ネガなし維持"
-    },
-    "toai_kabushiki": {
-      "label": "株式会社TOAI",
-      "volume": 2900,
-      "riskLevel": 0,
-      "negativeCount": 0,
-      "browserTopRank": "ネガなし",
-      "weeklyChange": "良好維持",
-      "target": "ネガなし維持"
-    }
-  },
-  "rateHistory": [
-    { "week": "第13週(3/9)",  "rate": 85.7 },
-    { "week": "第14週(3/17)", "rate": 85.7 },
-    { "week": "第15週(3/23)", "rate": 85.7 },
-    { "week": "第16週(3/30)", "rate": 85.7 },
-    { "week": "第17週(4/13)", "rate": 87.1 }
-  ]
+  "nonDisplayRate": 87.1,
+  "negativeTotalCount": 5,
+  "reportType": "weekly"
 }
